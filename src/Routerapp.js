@@ -1,5 +1,5 @@
 import { HashRouter as Router, Route, Switch} from "react-router-dom";
-import Host from "./components/Host";
+import About from "./components/About";
 import Home from './Home';
 
 
@@ -9,7 +9,7 @@ function Routerapp() {
             <Router>
                 <Switch>
                     <Route path='/' exact component={Home} />
-                    <Route path='/Host' component={Host} />                
+                    <Route path='/About' component={About} />                
                 </Switch>                
             </Router>
         </div>

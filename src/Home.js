@@ -4,7 +4,12 @@ import './Home.css';
 function Home () {
     return(
         <div>
-            <h1>Home</h1>
+            <div className='home-div'></div>
+            <div className='footer'>
+                <div className='copyright'>
+                    <p>&#169;&emsp;Yao-Wen Lee 2021</p>
+                </div>               
+            </div>            
         </div>
     )
 }

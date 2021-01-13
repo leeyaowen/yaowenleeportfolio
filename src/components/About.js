@@ -1,12 +1,12 @@
 import './page.css';
 
 
-function Host () {
+function About () {
     return (
         <div>
-          <h1>Host</h1>
+          <h1>About</h1>
         </div>
     )
 }
  
-export default Host;
+export default About;
