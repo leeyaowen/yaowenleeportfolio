@@ -5,7 +5,7 @@ import './AppNavbar.css'
 function AppNavbar () {
     return(
         <div className='App' >
-            <Navbar expand="lg" className='app-navbar'>
+            <Navbar expand="lg" collapseOnSelect className='app-navbar'>
                 <Navbar.Brand href="#">Yao-Wen Lee</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -18,6 +18,7 @@ function AppNavbar () {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href='https://www.instagram.com/yaowenlee/' target='_blank'><img src='https://photos.smugmug.com/photos/i-kT95Kvv/0/8253ed20/Ti/i-kT95Kvv-Ti.png' alt='instagram'></img></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
