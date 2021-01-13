@@ -1,7 +1,3 @@
-import ReactMarkdown from 'react-markdown';
-import './page.css';
-
-const aboutMD = `
 ##### Photographer based in Taiwan.
 ---
 ##### Featured
@@ -18,10 +14,12 @@ const aboutMD = `
 ---  
 ##### AWARDS
 2017  
+  
 IPA Non-Professional Fine Art : Still Life Honorable Mention  
 TIFA Non-Professional Fine Art : Still Life Honorable Mention  
   
 2018  
+  
 MIFA Non-Professional Fine Art : Still Life Honorable Mention  
 IPA Non-Professional Fine Art : Still Life Honorable Mention * 2  
 ND Awards Non-Professional Honorable Mention - Nature - Flowers  
@@ -39,20 +37,3 @@ BIFA Non-Professional People : Self-Portrait Honorable Mention
 MIFA Non-Professional Nature-Trees Honorable Mention  
 MIFA Non-Professional Architecture-Cityscapes Honorable Mention  
 IPA Non-Professional People-Portrait Honorable Mention
-`
-
-
-function About () {
-    return (
-        <div className='about-textdiv'>
-          <ReactMarkdown children={aboutMD} />
-          <div className='footer'>
-                <div className='copyright'>
-                    <p>&#169;&nbsp;Yao-Wen Lee 2021</p>
-                </div>               
-            </div>
-        </div>
-    )
-}
- 
-export default About;

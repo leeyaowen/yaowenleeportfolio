@@ -1,0 +1,40 @@
+.about-textdiv a{
+    color: black;
+}
+
+.about-textdiv a:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.about-textdiv p{
+    line-height: 1.5;
+}
+
+.footer{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative !important;
+    padding-top: 20px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (min-width: 768px){
+    .about-textdiv{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+}
+
+@media (max-width: 767px){
+    .about-textdiv{
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+    }    
+}
