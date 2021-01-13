@@ -1,21 +1,36 @@
-.home-div{
-    background-image: url('https://photos.smugmug.com/photos/i-TSLNx7w/0/b0171c38/X5/i-TSLNx7w-X5.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 80vh;
-}
-
 .footer{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 5vh;
+    padding-top: 8px;
 }
 
 .copyright{
     text-align: center;
     font-size: 14px;
+}
+
+@media (min-width: 768px){
+    .home-div{
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 1025px){
+    .home-div{
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .home-div{
+        margin-top: 8%;
+        width: 100%;
+    }
 }
