@@ -6,7 +6,7 @@ import Home from './Home';
 function Routerapp() {
     return(
         <div className='router'>
-            <Router>
+            <Router basename='/wen-portfolio'>
                 <Switch>
                     <Route path='/' exact component={Home} />
                     <Route path='/Host' component={Host} />                
