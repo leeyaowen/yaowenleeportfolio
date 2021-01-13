@@ -5,3 +5,15 @@
 .App a:visited{
     background-color: rgb(204, 204, 204);
 }
+
+@media (min-width: 768px){
+    .homenavlink{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px){
+    .homenavlink{
+        margin-top: 0px;
+    }
+}
