@@ -12,7 +12,7 @@ function AppNavbar () {
                     <Nav className="mr-auto">
                     <Nav.Link href="#About" className='homenavlink'>About</Nav.Link>
                     <NavDropdown title="Work" id="basic-nav-dropdown" className='homenavlink'>
-                        <NavDropdown.Item href="#action/3.1">wip</NavDropdown.Item>
+                        <NavDropdown.Item href="#Work/Nanjenshan">Nanjenshan</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">wip</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">wip</NavDropdown.Item>
                         <NavDropdown.Divider />

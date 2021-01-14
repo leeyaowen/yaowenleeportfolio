@@ -12,14 +12,12 @@
 [Frizzifrizzi Flickr/Week(r) · 2020/06/14 ](https://www.frizzifrizzi.it/2020/06/14/flickr-weekr-un-blues-in-bianco-e-nero/)  
 
 ---  
-##### AWARDS
+##### Awards
 2017  
-  
 IPA Non-Professional Fine Art : Still Life Honorable Mention  
 TIFA Non-Professional Fine Art : Still Life Honorable Mention  
   
 2018  
-  
 MIFA Non-Professional Fine Art : Still Life Honorable Mention  
 IPA Non-Professional Fine Art : Still Life Honorable Mention * 2  
 ND Awards Non-Professional Honorable Mention - Nature - Flowers  
@@ -36,4 +34,8 @@ BIFA Non-Professional People : Self-Portrait Honorable Mention
 2020  
 MIFA Non-Professional Nature-Trees Honorable Mention  
 MIFA Non-Professional Architecture-Cityscapes Honorable Mention  
-IPA Non-Professional People-Portrait Honorable Mention
+IPA Non-Professional People-Portrait Honorable Mention  
+  
+---
+##### Contact
+Email: jcjh30101@gmail.com

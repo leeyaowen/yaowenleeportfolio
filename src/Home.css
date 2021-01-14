@@ -1,4 +1,4 @@
-.footer{
+.home-footer{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -6,7 +6,7 @@
     bottom: 10px;
 }
 
-.copyright{
+.home-copyright{
     text-align: center;
     font-size: 14px;
 }
@@ -23,7 +23,7 @@
     }
 
     .simg{
-        width: 60%;
+        width: 62%;
     }
 
     .pimg{
@@ -44,7 +44,7 @@
     }
 
     .simg{
-        width: 65%;
+        width: 80%;
     }
 
     .pimg{

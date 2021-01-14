@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown';
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
 import './page.css';
 
 const aboutMD = `
@@ -16,7 +17,7 @@ const aboutMD = `
 [Frizzifrizzi Flickr/Week(r) · 2020/06/14 ](https://www.frizzifrizzi.it/2020/06/14/flickr-weekr-un-blues-in-bianco-e-nero/)  
 
 ---  
-##### AWARDS
+##### Awards
 2017  
 IPA Non-Professional Fine Art : Still Life Honorable Mention  
 TIFA Non-Professional Fine Art : Still Life Honorable Mention  
@@ -38,15 +39,20 @@ BIFA Non-Professional People : Self-Portrait Honorable Mention
 2020  
 MIFA Non-Professional Nature-Trees Honorable Mention  
 MIFA Non-Professional Architecture-Cityscapes Honorable Mention  
-IPA Non-Professional People-Portrait Honorable Mention
+IPA Non-Professional People-Portrait Honorable Mention  
+  
+---
+##### Contact
+Email: jcjh30101@gmail.com
 `
 
 
 function About () {
     return (
         <div className='about-textdiv'>
-          <ReactMarkdown children={aboutMD} />
-          <div className='footer'>
+            <ScrollUpButton />
+            <ReactMarkdown children={aboutMD} />
+            <div className='footer'>
                 <div className='copyright'>
                     <p>&#169;&nbsp;Yao-Wen Lee 2021</p>
                 </div>               
