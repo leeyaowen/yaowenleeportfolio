@@ -18,15 +18,15 @@
         width: 60%;
     }
 
-    .limg{
+    .home-div .limg{
         width: 100%;
     }
 
-    .simg{
+    .home-div .simg{
         width: 62%;
     }
 
-    .pimg{
+    .home-div .pimg{
         width: 40%;
     }
 }
@@ -39,15 +39,15 @@
         width: 80%;
     }
 
-    .limg{
+    .home-div .limg{
         width: 100%;
     }
 
-    .simg{
+    .home-div .simg{
         width: 80%;
     }
 
-    .pimg{
+    .home-div .pimg{
         width: 45%;
     }
 }
@@ -60,15 +60,15 @@
         width: 98%;
     }
 
-    .limg{
+    .home-div .limg{
         width: 100%;
     }
 
-    .simg{
+    .home-div .simg{
         width: 100%;
     }
 
-    .pimg{
+    .home-div .pimg{
         width: 80%;
     }
 }

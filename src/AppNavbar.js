@@ -11,12 +11,10 @@ function AppNavbar () {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Link href="#About" className='homenavlink'>About</Nav.Link>
-                    <NavDropdown title="Work" id="basic-nav-dropdown" className='homenavlink'>
+                    <NavDropdown title="Art Works" id="basic-nav-dropdown" className='homenavlink'>
                         <NavDropdown.Item href="#Work/Nanjenshan">Nanjenshan</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">wip</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">wip</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">wip</NavDropdown.Item>
+                        <NavDropdown.Item href="#Work/Blender">Blender 3D</NavDropdown.Item>
                     </NavDropdown>                                                       
                     </Nav>
                     <Form inline>
