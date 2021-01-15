@@ -3,6 +3,7 @@ import About from "./components/About";
 import WorkNanjenshan from './components/WorkNanjenshan';
 import WorkPortrait from './components/WorkPortrait';
 import WorkBlender from './components/WorkBlender';
+import WorkDog from './components/WorkDog';
 import Home from './Home';
 
 
@@ -15,6 +16,7 @@ function Routerapp() {
                     <Route path='/About' component={About} />
                     <Route path='/Work/Nanjenshan' component={WorkNanjenshan} />
                     <Route path='/Work/Portrait' component={WorkPortrait} />
+                    <Route path='/Work/Dog' component={WorkDog} />
                     <Route path='/Work/Blender' component={WorkBlender} />
                 </Switch>                
             </Router>
