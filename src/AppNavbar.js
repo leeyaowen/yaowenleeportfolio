@@ -13,6 +13,7 @@ function AppNavbar () {
                     <Nav.Link href="#About" className='homenavlink'>About</Nav.Link>
                     <NavDropdown title="Art Works" id="basic-nav-dropdown" className='homenavlink'>
                         <NavDropdown.Item href="#Work/Nanjenshan">Nanjenshan</NavDropdown.Item>
+                        <NavDropdown.Item href="#Work/Portrait">Portrait</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#Work/Blender">Blender 3D</NavDropdown.Item>
                     </NavDropdown>                                                       
